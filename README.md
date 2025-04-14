@@ -44,8 +44,8 @@ Make sure you have the following installed:
 
 ---
 
-📨 API Endpoints
-🔐 POST /login
+📨 API Endpoints  
+🔐 POST /login  
 Validates a user with ChatEngine.
 
 Request Body:  
