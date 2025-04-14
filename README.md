@@ -53,11 +53,12 @@ Request Body:
 {  
    "username": "exampleUser",  
    "secret": "userSecret"  
-}  
+}
+```
 Response:  
 - 200 OK with user details  
 - 400 Bad Request on failure  
-```
+
 ---
 
 📝 POST /signup
@@ -71,11 +72,12 @@ Request Body:
    "email": "user@example.com",  
    "first_name": "John",  
    "last_name": "Doe"  
-}  
+}
+```
 Response:  
 - 200 OK with created user info
 - 400 Bad Request on failure
-```
+
 ---
 
 🔄 CORS Support  
