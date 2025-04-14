@@ -49,10 +49,10 @@ Make sure you have the following installed:
 Validates a user with ChatEngine.
 
 Request Body:  
-{
-  "username": "exampleUser",
-  "secret": "userSecret"
-}
+{  
+  "username": "exampleUser",  
+  "secret": "userSecret"  
+}  
 Response:  
 - 200 OK with user details  
 - 400 Bad Request on failure  
@@ -62,14 +62,14 @@ Response:
 📝 POST /signup
 Creates a new user on ChatEngine.
 
-Request Body:  
-{
-  "username": "newUser",
-  "secret": "userSecret",
-  "email": "user@example.com",
-  "first_name": "John",
-  "last_name": "Doe"
-}
+Request Body:   
+{  
+  "username": "newUser",  
+  "secret": "userSecret",  
+  "email": "user@example.com",  
+  "first_name": "John",  
+  "last_name": "Doe"  
+}  
 Response:  
 - 200 OK with created user info
 - 400 Bad Request on failure
