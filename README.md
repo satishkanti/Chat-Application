@@ -49,6 +49,7 @@ Make sure you have the following installed:
 Validates a user with ChatEngine.
 
 Request Body:  
+```
 {  
    "username": "exampleUser",  
    "secret": "userSecret"  
@@ -56,13 +57,14 @@ Request Body:
 Response:  
 - 200 OK with user details  
 - 400 Bad Request on failure  
-
+```
 ---
 
 📝 POST /signup
 Creates a new user on ChatEngine.
 
 Request Body:   
+```
 {  
    "username": "newUser",  
    "secret": "userSecret",  
@@ -73,7 +75,7 @@ Request Body:
 Response:  
 - 200 OK with created user info
 - 400 Bad Request on failure
-
+```
 ---
 
 🔄 CORS Support  
